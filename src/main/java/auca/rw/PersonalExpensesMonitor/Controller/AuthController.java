@@ -25,7 +25,7 @@ import auca.rw.PersonalExpensesMonitor.Services.CustomUserDetailsService;
 import auca.rw.PersonalExpensesMonitor.Services.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @Controller
 public class AuthController {
 

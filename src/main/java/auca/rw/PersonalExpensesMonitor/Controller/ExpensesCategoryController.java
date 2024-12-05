@@ -20,7 +20,7 @@ import auca.rw.PersonalExpensesMonitor.Services.ExpensesCategoryService;
 
 @RestController
 @RequestMapping("/api/expenses-categories")  // Changed to /api endpoint
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class ExpensesCategoryController {
 
     @Autowired

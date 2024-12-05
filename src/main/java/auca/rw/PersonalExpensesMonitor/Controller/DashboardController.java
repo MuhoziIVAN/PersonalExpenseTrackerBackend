@@ -17,7 +17,7 @@ import auca.rw.PersonalExpensesMonitor.Services.IncomeService;
 
 @RestController // Change to @RestController for JSON responses
 @RequestMapping("/dashboard")
-@CrossOrigin(origins = "http://localhost:3000") // Enable CORS for React frontend
+@CrossOrigin(origins = "*")
 public class DashboardController {
 
     @Autowired

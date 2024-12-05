@@ -36,7 +36,7 @@ import auca.rw.PersonalExpensesMonitor.Services.UserService;
 
 @RestController
 @RequestMapping("/api/expenses")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class ExpensesController {
 
     @Autowired
